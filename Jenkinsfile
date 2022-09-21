@@ -8,6 +8,7 @@ pipeline
                   steps
                   {
                         echo "This is init stage"
+                        bat "dir"
                   }
             }
             stage('build')
